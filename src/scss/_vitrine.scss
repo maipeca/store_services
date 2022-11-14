@@ -1,0 +1,68 @@
+.vitrine {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    max-width: 90vw;
+    margin: 0 auto;
+
+    &__item {
+        background-color: #FEECED;
+        border-radius: 1rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 20rem;
+        padding: 1rem;
+        position: relative;
+        &:hover {
+            animation: toTop;
+            animation-duration: 1s;
+            box-shadow: $font-color-secondary;
+            ;
+        }
+    }
+
+    &__image {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+
+        img{width: 200px;
+        height: 200px;}
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: $color-secondary;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__desc {
+        color: $font-color-secondary;
+        font-size: $font-size-default;
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__button {
+        box-shadow: $font-color-secondary;
+
+        background-color: $font-color-secondary;
+        border-radius: 1rem;
+        border: 1px solid $font-color-secondary;
+        color: $font-color-primary;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        font-size: $font-size-default;
+        text-decoration: none;
+        align-self: center;
+        margin-bottom: 2rem;
+        &:hover {
+            box-shadow: 0 0 2px 2px $font-color-secondary;
+        }
+    }
+}

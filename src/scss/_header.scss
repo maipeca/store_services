@@ -1,0 +1,28 @@
+
+header .container {
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    .hero {
+        align-items: flex-end;
+        background-image: url('../assets/images/plain.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50rem;
+        display: flex;
+        padding-bottom: 4rem;
+        width: 100%;
+
+        h1 {
+            padding: 1rem 0 0;
+            text-align: center;
+            width: 100%;
+            justify-content: flex-end;
+            font-family: 'itim', sans-serif;
+        }
+    }
+
+}
