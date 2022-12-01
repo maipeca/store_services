@@ -10,19 +10,35 @@ header .container {
         align-items: flex-end;
         background-image: url('../assets/images/plain.svg');
         background-repeat: no-repeat;
+        background-size: 50vw;
         background-position: center;
-        height: 50rem;
+        flex-direction: column;
+        height: 45rem;
         display: flex;
         padding-bottom: 4rem;
+        overflow: hidden;
         width: 100%;
+        
 
         h1 {
-            padding: 1rem 0 0;
+           
             text-align: center;
             width: 100%;
-            justify-content: flex-end;
             font-family: 'itim', sans-serif;
+            color: $color-secondary;
+            
         }
+
+        @media (max-width: 767px) {
+
+            img {
+                margin-left: -50%;
+                position: relative;
+                width: 230%;
+                max-width: none;
+                margin-right: -68%;
+                margin-top: 90px;
+            }
     }
 
-}
+}}

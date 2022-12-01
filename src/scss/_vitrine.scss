@@ -5,6 +5,11 @@
     max-width: 90vw;
     margin: 0 auto;
 
+    @media (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
     &__item {
         background-color: #FEECED;
         border-radius: 1rem;
@@ -20,8 +25,8 @@
             animation-duration: 1s;
             box-shadow: $font-color-secondary;
             ;
-        }
-    }
+        }}
+  
 
     &__image {
         justify-content: center;
