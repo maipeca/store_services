@@ -11,7 +11,7 @@
 .col-11 { width: calc(8.33% * 11 )}
 .col-12 { width: calc(8.33% * 12 )}
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
     [class*="col-" ] {
         width: 100%;
         padding-left: 2rem;
