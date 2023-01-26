@@ -1,14 +1,21 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    width: 4vw;
+    justify-content:center;
+    width: 6vw;
     align-items: center;
+    margin-top: 2rem;
+    font-weight:bolder;
+    background-color: #FEECED;
+    height: auto;
+    
+    
+    .nav__item{margin-right: 2rem;}
 
     @media (max-width: 500px) {
 
         flex-direction: column;
-        .nav__item{margin-bottom: 2rem;}
+        .nav__item{margin-bottom: 2rem; }
         }
    
 

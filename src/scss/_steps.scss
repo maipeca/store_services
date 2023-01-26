@@ -2,6 +2,7 @@
 
     .container{
         background: $font-color-primary;
+        border-radius: .5rem;
     }
     
     .steps {
@@ -14,6 +15,10 @@
         &__item {
             margin: 1rem;
             text-align: center;
+
+
+            img{ min-width: 100px;
+            max-width: 150px;}
             span {
                 color: $color-secondary;
             }

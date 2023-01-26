@@ -1,9 +1,13 @@
 
 header .container {
 
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content:end;
+    display: flex;
     flex-wrap: wrap;
+
+    h2{text-align: center;}
+
+    h2 img{ width: 14vw;}
 
 
     .hero {
@@ -31,14 +35,7 @@ header .container {
 
         @media (max-width: 767px) {
 
-            img {
-                margin-left: -50%;
-                position: relative;
-                width: 230%;
-                max-width: none;
-                margin-right: -68%;
-                margin-top: 90px;
-            }
+            
     }
 
 }}

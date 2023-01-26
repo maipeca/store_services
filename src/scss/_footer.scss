@@ -3,8 +3,10 @@ footer {
     height: 15rem;
     text-align: right;
     
+    
     .container{
         background-color: $color-primary;
+        border-radius: .5rem;
     }
     
     p { margin-top: 7rem;
